@@ -1,0 +1,12 @@
+/*
+
+# Dirs
+!/public
+!/src
+
+# Files
+!/.gitignore
+!/index.html
+!/package.json
+!/tsconfig.json
+!/yarn.lock

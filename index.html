@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-<!--    Meta-->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <!--    Meta-->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<!--    Link-->
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!--    Link-->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
 
-<!--    Etc-->
+<!--    Prefetch character-->
+    <link rel="reload" href="/models/paladin.fbx" as="fetch">
+    <link rel="reload" href="/animations/paladin/idle.fbx" as="fetch">
+    <link rel="reload" href="/animations/paladin/forward.fbx" as="fetch">
+    <link rel="reload" href="/animations/paladin/backward.fbx" as="fetch">
+    <link rel="reload" href="/animations/paladin/left-strafe.fbx" as="fetch">
+    <link rel="reload" href="/animations/paladin/right-strafe.fbx" as="fetch">
+
+    <!--    Etc-->
     <title>Project RPMOBA</title>
-  </head>
-  <body>
-    <div id="game"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+</head>
+<body>
+<div id="game"></div>
+<script type="module" src="/src/main.ts"></script>
+</body>
 </html>

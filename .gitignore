@@ -3,6 +3,7 @@
 # Dirs
 !/public
 !/src
+!/tests
 
 # Files
 !/.gitignore

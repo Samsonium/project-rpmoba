@@ -1,11 +1,11 @@
-export default class Asset {
-    private readonly _content: any;
+export default class Asset<T = unknown> {
+    private readonly _content: T;
 
-    public constructor(content: any) {
+    public constructor(content: T) {
         this._content = content;
     }
 
-    public get content(): any {
+    public get content(): T {
         return this._content;
     }
 }
